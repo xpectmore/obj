@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML>
+<HEAD>
+<TITLE>js</TITLE>
+<script src="jquery-2.1.0.min.js"></script>
+<script src="obj.js"></script>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+$( document ).ready(function() {
+	$.obj(window,'window');
+	//$.obj($,'$');//we can see the jquery first level
+	//$.obj(window.document,'window.document');//if you want to go from window.document
+	//$.obj($("#justademo"),'$("#justademo")');//to work uncomment span too...
+});
+//-->
+</SCRIPT>
+</HEAD>
+<BODY>
+<!-- This is ANOTHER d.o.m. browser destinated to serve the jquery plugins programmers -->
+<!-- special for people they develop plugins based to d.o.m. on first level without using jquery -->
+<!--                                             -->
+<!-- Installing:                                            -->
+<!-- Just load jquery first , then obj.js, so .. -->
+<!-- .. loading the scripts when document finish to load just call obj -->
+<!-- eg. I am interested to see the d.o.m. section of `window` object  -->
+<!-- i call it $.obj(window,'window') -->
+<!-- Constantin Razvan,Tiganus 29 april 2014 -->
+<!-- <span id="justademo">just a demo</span>  -->
+</BODY>
+</HTML>
